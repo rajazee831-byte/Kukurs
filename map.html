@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🗺️ نقشہ - اسلامی جمہوریہ ککڑڈیا</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #d4af37;
+            --deep-gold: #b8860b;
+            --emerald: #0d6e6d;
+            --cream: #f8f1e9;
+            --dark: #1e1e2f;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Amiri', serif;
+            background: linear-gradient(to bottom, #fdfcf7 0%, var(--cream) 100%);
+            color: var(--dark);
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: radial-gradient(circle at top, #fffdfa 0%, #f2e9d8 100%);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .emblem {
+            width: 120px;
+            height: auto;
+            filter: drop-shadow(0 6px 15px rgba(0,0,0,0.15));
+        }
+
+        h1 {
+            font-family: 'Scheherazade New', serif;
+            font-size: 2.8em;
+            color: var(--deep-gold);
+            margin: 20px 0;
+        }
+
+        .subtitle {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.4em;
+            color: var(--emerald);
+        }
+
+        .map-container {
+            max-width: 95%;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            border: 2px solid var(--gold);
+            text-align: center;
+        }
+
+        .map-image {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .map-desc {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.15em;
+            line-height: 1.9;
+            margin: 30px 0;
+            padding: 0 20px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 12px 30px;
+            background: var(--deep-gold);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.2em;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background: var(--dark);
+            color: var(--gold);
+            text-align: center;
+            padding: 30px;
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.1em;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2em; }
+            .subtitle { font-size: 1.2em; }
+            .emblem { width: 100px; }
+            .map-desc { font-size: 1em; padding: 0 15px; }
+            .map-container { padding: 15px; margin: 30px auto; }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.9em; }
+            .map-desc { font-size: 0.95em; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://img.freepik.com/premium-photo/crescent-moon-stars-golden-islamic-symbol-3d-rendering_1093415-412.jpg" alt="شاہی نشان" class="emblem">
+        <h1>نقشہ جمہوریہ</h1>
+        <div class="subtitle">اسلامی جمہوریہ ککڑڈیا کی جغرافیائی حدود</div>
+    </header>
+
+    <div class="map-container">
+        <img src="map.png" alt="تاریخی اسلامی نقشہ - الادریسی کی تبولہ روجریана" class="map-image">
+        
+        <div class="map-desc">
+            اسلامی جمہوریہ ککڑڈیا کا سرکاری نقشہ تاریخی اسلامی جغرافیائی روایت پر مبنی ہے۔ یہ الادریسی کی مشہور "تبولہ روجریана" (1154 عیسوی) سے متاثر ہے، جو اسلامی سنہری دور کا شاہکار ہے۔ اس نقشے میں جنوب اوپر اور شمال نیچے کی طرف ہے – جیسا کہ قدیم عربی نقشہ نگاروں کی روایت تھی۔<br><br>
+            ککڑڈیا کی حدود وسطی ایشیاء، جنوبی ایشیاء اور عرب خطوں کے سنگم پر واقع ہیں، جہاں عدل اور علم کی روشنی پھیلتی ہے۔ دارالحکومت "کوکڑ پور" مرکز میں واقع ہے، جہاں شاہی محل اور عظیم جامع مسجد موجود ہیں۔ سرحدیں امن اور اتحاد کی علامت ہیں۔
+        </div>
+
+        <a href="index.html" class="back-btn">🏠 واپس مرکزی صفحہ پر</a>
+    </div>
+
+    <footer>
+        © 2025 اسلامی جمہوریہ ککڑڈیا – زندہ باد 🌙
+    </footer>
+
+</body>
+</html>

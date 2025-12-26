@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📰 تازہ ترین اپ ڈیٹس | اسلامی جمہوریہ ککڑڈیا</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Scheherazade+New:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #d4af37;
+            --deep-gold: #b8860b;
+            --emerald: #0d6e6d;
+            --cream: #f8f1e9;
+            --dark: #1e1e2f;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Amiri', serif;
+            background: linear-gradient(to bottom, #fdfcf7 0%, var(--cream) 100%);
+            color: var(--dark);
+            line-height: 1.8;
+        }
+        header {
+            background: radial-gradient(circle at center, #fffdfa 0%, #f2e9d8 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--gold);
+        }
+        h1 {
+            font-family: 'Scheherazade New', serif;
+            font-size: 3em;
+            color: var(--deep-gold);
+            margin: 0;
+            text-shadow: 1px 2px 6px rgba(0,0,0,0.1);
+        }
+        .subtitle {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.4em;
+            color: var(--emerald);
+            margin: 10px 0 0;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .update-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            margin-bottom: 50px;
+            overflow: hidden;
+            transition: transform 0.4s ease;
+            opacity: 0;
+            transform: translateY(40px);
+        }
+        .update-card.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .update-card:hover {
+            transform: translateY(-12px);
+        }
+        .update-header {
+            background: linear-gradient(to right, var(--emerald), #1a8c8b);
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .update-content {
+            padding: 30px;
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 1.2em;
+        }
+        .update-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 0 30px 30px;
+        }
+        .update-images img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            transition: transform 0.5s ease;
+        }
+        .update-images img:hover {
+            transform: scale(1.06);
+        }
+        .date {
+            font-size: 1.1em;
+            color: var(--deep-gold);
+            margin-bottom: 15px;
+            display: block;
+        }
+        footer {
+            background: var(--dark);
+            color: var(--gold);
+            text-align: center;
+            padding: 30px;
+            font-family: 'Noto Nastaliq Urdu', serif;
+            margin-top: 60px;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(60px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.4em; }
+            .update-header { font-size: 1.3em; }
+            .update-content { font-size: 1.1em; padding: 25px; }
+            .update-images img { height: 200px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>📰 تازہ ترین اپ ڈیٹس</h1>
+        <div class="subtitle">اسلامی جمہوریہ ککڑڈیا کی تازہ خبریں، تقریبات اور یادیں 🌙</div>
+    </header>
+
+    <div class="container">
+
+        <!-- مثال کے طور پر پہلی اپ ڈیٹ - آپ اسے تبدیل کر سکتے ہیں -->
+        <div class="update-card">
+            <div class="update-header">ہفتہ وار لنگر اور دوستوں کی محفل</div>
+            <div class="update-content">
+                <span class="date">26 دسمبر 2025</span>
+                آج ہفتہ وار چندے سے حاصل ہونے والی رقم سے لنگر تقسیم کیا گیا۔  
+                اس موقع پر راجہ محمد زیشان اور تمام وزراء نے شرکت کی۔  
+                دوستوں کے ساتھ بہت خوشی اور ہنسی مذاق کا ماحول رہا۔ اللہ کا شکر ہے کہ اتحاد اور محبت برقرار ہے۔
+            </div>
+            <div class="update-images">
+                <!-- یہاں اپنی تصاویر کے لنکس ڈالیں -->
+                <img src="https://media.istockphoto.com/id/1207153141/photo/group-of-young-attractive-friends-having-a-picnic.jpg?s=612x612&w=0&k=20&c=EzJseARQS6WzU3vUSzXDdiHQkuYQh4RKIOAyT_hlnrs=" alt="دوستوں کی محفل">
+                <img src="https://media.istockphoto.com/id/1350827450/photo/happy-young-men-and-women-toasting-healthy-orange-fruit-juice-at-farm-house-picnic-life-style.jpg?s=612x612&w=0&k=20&c=hOGDJm-VmTG0ogI7txL9wIEUBQIQ_SOreWftjRLQcOc=" alt="لنگر اور خوشی">
+                <img src="https://images.stockcake.com/public/e/8/4/e845040b-bee1-4bfe-88b8-8be88b3366c0_large/friends-enjoying-sunset-stockcake.jpg" alt="دوست غروب آفتاب پر">
+            </div>
+        </div>
+
+
+        <!-- آپ یہاں مزید اپ ڈیٹ کارڈز شامل کر سکتے ہیں جیسے ضرورت ہو -->
+
+    </div>
+
+    <footer>
+        © 2025 اسلامی جمہوریہ ککڑڈیا – علم، عدل اور کوکڑ کی شان زندہ باد 🌙
+    </footer>
+
+    <script>
+        // سادہ اینیمیشن کے لیے (کارڈز آہستہ آہستہ نظر آئیں)
+        document.addEventListener("DOMContentLoaded", () => {
+            const cards = document.querySelectorAll('.update-card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.classList.add('visible');
+                }, index * 300);
+            });
+        });
+    </script>
+
+</body>
+</html>
